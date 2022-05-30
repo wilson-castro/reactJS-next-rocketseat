@@ -1,0 +1,15 @@
+{
+  "_cts": {
+    "plublication-my-custom": {
+      "Title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "slices": {
+    "MySlice": {}
+  }
+}

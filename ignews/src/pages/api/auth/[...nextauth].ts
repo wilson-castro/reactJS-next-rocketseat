@@ -8,7 +8,7 @@ export default NextAuth({
     GithubProvider({
       clientId: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
-      authorization: { params: { scope: "read:user"}}
+      authorization: { params: { scope: "read:user" } }
     }),
   ],
   callbacks: {
@@ -16,7 +16,7 @@ export default NextAuth({
       const { email: emailUser } = user;
 
       try {
-        await fauna.query (
+        await fauna.query(
           q.If(
             // IF
             q.Not(
@@ -33,7 +33,7 @@ export default NextAuth({
             // CASE IF, DO IT
             q.Create(
               q.Collection('users'),
-              { data: { email: emailUser }}
+              { data: { email: emailUser } }
             ),
 
             // ELSE

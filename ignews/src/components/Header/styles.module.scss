@@ -12,6 +12,10 @@
   display: flex;
   align-items: center;
 
+  img {
+    cursor: pointer;
+  }
+
   nav {
     margin-left: 5rem;
     height: 5rem;
@@ -40,13 +44,14 @@
       }
 
       &.active::after {
-        content: '';
+        content: "";
         height: 3px;
         border-radius: 3px 3px 0 0;
         width: 100%;
+        position: absolute;
         bottom: 1px;
         left: 0;
-        background-color: var(--yellow-500);
+        background: var(--yellow-500);
       }
     }
   }
