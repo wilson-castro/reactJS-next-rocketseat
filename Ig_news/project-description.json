@@ -1,0 +1,74 @@
+{
+    "name": "Ig_news",
+    "short_description": "Um blog de noticias sobre tecnologia",
+    "description": "Uma aplicacao construida em React.js. Para compartilhar noticia sobre tecnologia de forma simples.",
+    
+    
+    
+    "techs": [
+      {
+        "name": "React.js",
+        "url": "https://reactjs.org"
+      },
+      {
+          "name":"SASS",
+          "url":"https://sass-lang.com"
+      },
+      
+      {
+        "name": "Jest",
+        "url": "https://jestjs.io/docs/getting-started"
+      },
+      {
+        "name": "React Icons",
+        "url": "https://react-icons.github.io/react-icons/#/"
+      },
+      {
+        "name":"TypeScript",
+        "url":"https://www.typescriptlang.org"
+      },
+      {
+          "name":"FaunaDB",
+          "url":"https://fauna.com"
+      },
+      {
+          "name":"React Query",
+          "url":"https://react-query.tanstack.com"
+      },
+      {
+          "name":"Next Auth",
+          "url":"https://next-auth.js.org"
+      },
+      {
+          "name":"Axios",
+          "url":"https://axios-http.com"
+      },
+      {
+        "name":"Eslint",
+        "url":"https://eslint.org"
+      },
+      {
+          "name":"Prismic CMS",
+          "url":"https://prismic.io"
+      },
+      {
+          "name":"Stripe",
+          "url":"https://stripe.com/br"
+      }
+      
+    ],
+    "videos": [
+        "https://raw.githubusercontent.com/ganimedes96/Ig_news/main/.github/ig_news.mp4"
+    ],
+    "images": [
+     "https://raw.githubusercontent.com/ganimedes96/Ig_news/main/.github/image.jpg",
+     "https://raw.githubusercontent.com/ganimedes96/Ig_news/main/.github/image1.jpg",
+     "https://raw.githubusercontent.com/ganimedes96/Ig_news/main/.github/image2.jpg",
+     "https://raw.githubusercontent.com/ganimedes96/Ig_news/main/.github/image3.jpg"
+     
+       
+      
+    
+    ]
+    
+    }
